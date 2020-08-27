@@ -1,0 +1,22 @@
+SQL Connection details
+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url= jdbc:mysql://localhost:8001/stockdata
+spring.datasource.username=stockdev
+spring.datasource.password=stockdev
+
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySql8Dialect
+
+spring.data.rest.base-path= /api/v1
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
