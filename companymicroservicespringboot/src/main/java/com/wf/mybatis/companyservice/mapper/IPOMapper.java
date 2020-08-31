@@ -1,4 +1,4 @@
-package com.techprimers.mybatis.springbootmybatis.mapper;
+package com.wf.mybatis.companyservice.mapper;
 
 import java.util.List;
 
@@ -6,7 +6,8 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
-import com.techprimers.mybatis.springbootmybatis.model.IPO;
+import com.wf.mybatis.companyservice.model.IPO;
+
 @Mapper
 public interface IPOMapper {
 

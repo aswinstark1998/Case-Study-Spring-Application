@@ -1,10 +1,11 @@
-package com.techprimers.mybatis.springbootmybatis.mapper;
+package com.wf.mybatis.companyservice.mapper;
 
-import com.techprimers.mybatis.springbootmybatis.model.Users;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.SelectKey;
+
+import com.wf.mybatis.companyservice.model.Users;
 
 import java.util.List;
 import java.util.List;

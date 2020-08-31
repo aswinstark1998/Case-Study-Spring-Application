@@ -1,10 +1,11 @@
-package com.techprimers.mybatis.springbootmybatis.mapper;
+package com.wf.mybatis.companyservice.mapper;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
-import com.techprimers.mybatis.springbootmybatis.model.StockPrice;
+import com.wf.mybatis.companyservice.model.StockPrice;
+
 import java.sql.*;
 import java.sql.Date;
 

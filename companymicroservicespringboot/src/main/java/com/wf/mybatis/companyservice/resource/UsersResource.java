@@ -1,8 +1,7 @@
-package com.techprimers.mybatis.springbootmybatis.resource;
+package com.wf.mybatis.companyservice.resource;
 
-import com.techprimers.mybatis.springbootmybatis.mapper.UsersMapper;
-
-import com.techprimers.mybatis.springbootmybatis.model.Users;
+import com.wf.mybatis.companyservice.mapper.UsersMapper;
+import com.wf.mybatis.companyservice.model.Users;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

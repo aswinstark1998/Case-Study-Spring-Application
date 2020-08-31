@@ -1,4 +1,4 @@
-package com.techprimers.mybatis.springbootmybatis.resource;
+package com.wf.mybatis.companyservice.resource;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.techprimers.mybatis.springbootmybatis.mapper.CompanyMapper;
-import com.techprimers.mybatis.springbootmybatis.model.Company;
+import com.wf.mybatis.companyservice.mapper.CompanyMapper;
+import com.wf.mybatis.companyservice.model.Company;
 
 @RestController
 public class CompanyResource {

@@ -1,4 +1,4 @@
-package com.techprimers.mybatis.springbootmybatis.model;
+package com.wf.mybatis.companyservice.model;
 
 import java.util.List;
 

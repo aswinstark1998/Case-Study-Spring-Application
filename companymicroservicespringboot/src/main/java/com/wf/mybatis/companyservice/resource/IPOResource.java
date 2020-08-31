@@ -1,5 +1,4 @@
-package com.techprimers.mybatis.springbootmybatis.resource;
-
+package com.wf.mybatis.companyservice.resource;
 import java.sql.Date;
 import java.util.List;
 
@@ -8,8 +7,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.techprimers.mybatis.springbootmybatis.mapper.IPOMapper;
-import com.techprimers.mybatis.springbootmybatis.model.IPO;
+import com.wf.mybatis.companyservice.mapper.IPOMapper;
+import com.wf.mybatis.companyservice.model.IPO;
+
 
 @RestController
 @RequestMapping("/rest/IPO")

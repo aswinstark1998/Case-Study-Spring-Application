@@ -1,4 +1,4 @@
-package com.techprimers.mybatis.springbootmybatis.resource;
+package com.wf.mybatis.companyservice.resource;
 import java.util.List;
 
 import java.sql.Date;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.techprimers.mybatis.springbootmybatis.mapper.StockPriceMapper;
-import com.techprimers.mybatis.springbootmybatis.model.StockPrice;
+import com.wf.mybatis.companyservice.mapper.StockPriceMapper;
+import com.wf.mybatis.companyservice.model.StockPrice;
 
 @RestController
 public class StockPriceResource {
